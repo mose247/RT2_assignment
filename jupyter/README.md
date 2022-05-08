@@ -1,3 +1,2 @@
 # Jupyter Notebook
-
-To launch the simulation you have to use the file ``assignment3.launch``. The user interface to control the robot has been implemented through the notebook ``jupy_ui``.
+A jupyter notebook ``jupy_ui`` meant to implement an user interface to control a robot simulation. To launch the simulation environment please use the launch ``assignment3.launch``. 
