@@ -1,6 +1,6 @@
-# RT_final_assignment
+# RT2 Assignment - Sphinx documentation
 
-Documentation: https://mose247.github.io/RT_final_assignment/
+Sphinx documentiation of the third RT1 assignment: https://mose247.github.io/RT_final_assignment/ .
 
 ## Exercise requirements
 The assignment requires to develop a software architecture to control a mobile robot inside a simulation environment in ROS. In particular, both the modules that simulate the robot and the ones used for localization, mapping and path planning are already available. Therefore, it is asked to implement just the user interface that interacts with the robot controller in order to allow the user to switch between one of the following driving modes:
