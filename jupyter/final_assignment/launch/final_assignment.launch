@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file= "$(find final_assignment)/launch/move_base.launch"/>
+  <include file= "$(find final_assignment)/launch/simulation_gmapping.launch"/>
+  <node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" launch-prefix="xterm -fa 'Monospace' -fs 12 -e">
+    <remap from="cmd_vel" to="manual/cmd_vel"/>
+  </node>
+  <node name="user_interface" pkg="final_assignment" type="user_interface.py" launch-prefix="xterm -fa 'Monospace' -fs 12 -e" >
+  </node>
+  <node name="collision_avoidance" pkg="final_assignment" type="collision_avoidance.py" launch-prefix="xterm -fa 'Monospace' -fs 12 -e" >
+  </node>
+
+</launch>
