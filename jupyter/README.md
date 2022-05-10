@@ -1,2 +1,4 @@
 # Jupyter Notebook
-A jupyter notebook ``jupy_ui`` meant to implement an user interface to control a robot simulation. To launch the simulation environment please use the launch file ``assignment3_jupyter.launch``. 
+
+#### How to run:
+The notebook ``jupy_ui.jpyn`` has been written specifically to implement an user interface aimed to control a robot simulation in ROS. To start the simulation please use the dedicated launch file ``assignment3_jupyter.launch``, then you can run the notebook and control the robot inside the environment using widgets.
